@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+.marketing{
+    margin-top: 2rem;
+    /* background-color: aqua ; */
+}
+
+.container .col-lg-4{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.depoimentos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.depoimentos .card{
+    margin: 1rem;
+}
+
+.contact{
+    margin: 2rem 0 2 rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .mb-3 .form-control{
+    width: 23rem;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer, .text{
+    margin-top: 2rem;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+}
+
