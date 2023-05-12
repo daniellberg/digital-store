@@ -5,49 +5,80 @@
     text-decoration: none;
 }
 
+html{
+    background-color: #b4b2b2;
+}
+
+.navbar{
+    color: #00ff33;
+}
+
+.nav-brand{
+    color: #00ff33;
+}
+
 .carousel-item{
     height: 32rem;
 }
 
-.marketing{
-    margin-top: 2rem;
-    /* background-color: aqua ; */
-}
-
-.container .col-lg-4{
-    margin-top: 1rem;
-    text-align: center;
+.featured h4{
+    color: #2ec64d;
 }
 
 .depoimentos{
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
-}
+} 
 
 .depoimentos .card{
     margin: 1rem;
 }
 
+.text{
+    text-align: center;
+    margin: 6rem 0 2rem 0;
+}
+
 .contact{
-    margin: 2rem 0 2 rem 0;
+    margin: 2rem 0 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50vh;
 }
 
 .contact .mb-3 .form-control{
     width: 23rem;
 }
 
-.text{
-    text-align: center;
-    margin-bottom: 1rem;
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #686868;
+    padding: 50px;
 }
 
-footer, .text{
-    margin-top: 2rem;
+.contact-btn a{
+    border: 3px solid #00ff33;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact-btn a:hover{
+    background-color: black;
+    color: #00ff33;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all 0.5s ease;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: auto auto;
 }
 
 footer .container{
@@ -57,3 +88,7 @@ footer .container{
     height: 3rem;
 }
 
+footer .mb-4 .btn{
+    font-size: large;
+    color: #00ff33;
+}
