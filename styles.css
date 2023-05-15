@@ -36,7 +36,8 @@ html{
 
 .text{
     text-align: center;
-    margin: 6rem 0 2rem 0;
+    padding: 6rem 0 2rem 0;
+    transform: translateY(30px);
 }
 
 .contact{
@@ -45,6 +46,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 50vh;
+    padding-bottom: 50px;
 }
 
 .contact .mb-3 .form-control{
@@ -74,7 +76,75 @@ html{
     transition: all 0.5s ease;
 }
 
-footer{
+.hero .btn{
+    transform: translate(400px, 50px);
+}
+
+.hero .btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #00ff33;
+    border: 2px solid;
+    transition: all ease-in .5s;
+}
+
+.description .text{
+    margin: 1rem 0 3rem;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.subdesc{
+    margin: 1rem 0 3rem;
+    padding: 0 70px 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.contact button{
+    margin-top: 1rem;
+}
+
+.marketing .row img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.lala{
+    background-color: #686868;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.lalala .btn-align {
+    display: flex;
+
+    background-color: #00ff33;
+}
+.lalala .btn-align a{
+    background-color: aqua;
+}
+
+.fw-normal{
+    margin-top: 10px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+
+.footerdiv{
     position: relative;
     bottom: 0;
     width: 100%;
@@ -85,7 +155,7 @@ footer .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3rem;
+    height: auto;
 }
 
 footer .mb-4 .btn{
